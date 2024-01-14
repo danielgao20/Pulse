@@ -12,8 +12,6 @@
 
 </div>
 
-### Demo Screenshot
-
 ![React Native Fitness App Demo](./assets/Pulse.png "Desktop Demo")
 
 ## Get Started
