@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, FlatList, StyleSheet, Image } from 'react-native';
 
 const LeaderboardScreen = () => {
   const leaderboardData = [
@@ -11,6 +11,7 @@ const LeaderboardScreen = () => {
 
   return (
     <View style={styles.container}>
+      <Image source={require('../assets/Pulse.png')} style={styles.headerImage} />
       <Text style={styles.heading}>Leaderboard</Text>
       <FlatList
         data={leaderboardData}
