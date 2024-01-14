@@ -27,7 +27,7 @@ const LeaderboardScreen = ({ navigation }) => {
         onPress={() => console.log("Weekly Challenge Pressed")}
       >
         <Image
-          source={require('../readme-images/React-Native-Fitness-App.png')} // Replace with your image source
+          source={require('../assets/Pulse.png')} // Replace with your image source
           style={styles.weeklyChallengeImage}
         />
         <View style={styles.weeklyChallengeContent}>
