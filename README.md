@@ -8,7 +8,7 @@
 
   <h2 align="center">Pulse</h2>
 
-  Built using React Native and Node.js
+  Revolutionizing the fitness scene.
 
 </div>
 
