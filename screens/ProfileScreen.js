@@ -26,8 +26,18 @@ const ProfileScreen = () => {
         <Text>Hours Worked Out: 20</Text>
         {/* Add more profile information as needed */}
       </View>
-      <Button title="Start Workout" onPress={() => console.log('Start Workout')} />
-      <Button title="End Workout" onPress={() => console.log('End Workout')} />
+      <Button
+        title="Start Workout"
+        onPress={() => console.log('Start Workout')}
+        style={styles.startWorkoutButton}
+        titleStyle={styles.startWorkoutButtonText}
+      />
+      <Button
+        title="End Workout"
+        onPress={() => console.log('End Workout')}
+        style={styles.startWorkoutButton}
+        titleStyle={styles.startWorkoutButtonText}
+      />
 
       <Text style={styles.heading}>Friends</Text>
       <FlatList
@@ -37,7 +47,12 @@ const ProfileScreen = () => {
           <View style={styles.friendItem}>
             <Text>{item.name}</Text>
             {/* Add a button to view friend's profile */}
-            <Button title="View Profile" onPress={() => handleViewProfile(item.name)} />
+            <Button
+              title="View Profile"
+              onPress={() => handleViewProfile(item.name)}
+              style={styles.startWorkoutButton}
+              titleStyle={styles.startWorkoutButtonText}
+            />
           </View>
         )}
       />
@@ -62,6 +77,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginBottom: 8,
+  },
+  startWorkoutButton: {
+    backgroundColor: '#4CAF50',
+    padding: 12,
+    borderRadius: 8,
+  },
+  startWorkoutButtonText: {
+    color: 'white',
+    textAlign: 'center',
   },
 });
 

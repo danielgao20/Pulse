@@ -14,7 +14,7 @@ const LeaderboardScreen = ({ navigation }) => {
 
   const handleStartWorkoutPress = () => {
     // Navigate to the workout page or perform any other action
-    navigation.navigate('WorkoutPage');
+    navigation.navigate('Challenges');
   };
 
   return (
@@ -27,7 +27,7 @@ const LeaderboardScreen = ({ navigation }) => {
         onPress={() => console.log("Weekly Challenge Pressed")}
       >
         <Image
-          source={require('../assets/Pulse.png')} // Replace with your image source
+          source={require('../assets/banner.png')}
           style={styles.weeklyChallengeImage}
         />
         <View style={styles.weeklyChallengeContent}>
@@ -42,7 +42,7 @@ const LeaderboardScreen = ({ navigation }) => {
       </TouchableOpacity>
 
       {/* Section for Leaderboard */}
-      <Text style={styles.leaderboardHeading}>______________________________________________</Text>
+      <Text style={styles.leaderboardHeading}>________________________________</Text>
       <Text style={styles.leaderboardHeading}>Leaderboard</Text>
       <FlatList
         data={leaderboardData}
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
   leaderboardItemText: {
     fontSize: 16,
-    fontWeight: 'bold',
+    // fontWeight: 'bold',
   },
 });
 
