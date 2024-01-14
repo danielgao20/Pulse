@@ -9,7 +9,6 @@
   <h2 align="center">Pulse</h2>
 
   Revolutionizing the fitness scene.
-  Built using React Native, Node.js, and Expo.
 
 </div>
 
@@ -23,6 +22,9 @@ As amateur fitness enthusiasts, we often struggled to hold ourselves accountable
 ### Functionality
 By allowing users to compete for the weekly "Top Athlete" title amongst their friends, as well as offering engaging weekly challenges, Pulse aims to infuse fun, variety, and social connectivity into fitness routines. Through these features, we hope to not only motivate ourselves, but other busy people struggling to self-motivate, to pursue health and wellness goals.
 
+### How we built it 
+
+We followed a fullstack approach to our app, using React Native for the bulk of the frontend and Node.js for the backend. Expo was used as a means to display and run the application.
 
 ## Get Started
 
