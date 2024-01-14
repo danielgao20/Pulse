@@ -15,6 +15,15 @@
 
 ![React Native Fitness App Demo](./assets/Pulse.png "Desktop Demo")
 
+
+### Inspiration
+As amateur fitness enthusiasts, we often struggled to hold ourselves accountable to a consistent workout routine amidst our busy schedules. The monotony of solitary workouts further disincentivized us. This inspired us to create Pulse - an application designed to gamify the workout experience and facilitate shared accountability.
+
+
+### Functionality
+By allowing users to compete for the weekly "Top Athlete" title amongst their friends, as well as offering engaging weekly challenges, Pulse aims to infuse fun, variety, and social connectivity into fitness routines. Through these features, we hope to not only motivate ourselves, but other busy people struggling to self-motivate, to pursue health and wellness goals.
+
+
 ## Get Started
 
 install dev dependencies
@@ -34,13 +43,6 @@ Open it in the [Expo app](https://expo.io) on your phone to view it. It will rel
 #### `npm run ios`
 
 Like `npm start` / `yarn start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
-
-### Inspiration
-As amateur fitness enthusiasts, we often struggled to hold ourselves accountable to a consistent workout routine amidst our busy schedules. The monotony of solitary workouts further disincentivized us. This inspired us to create Pulse - an application designed to gamify the workout experience and facilitate shared accountability.
-
-
-### Functionality
-By allowing users to compete for the weekly "Top Athlete" title amongst their friends, as well as offering engaging weekly challenges, Pulse aims to infuse fun, variety, and social connectivity into fitness routines. Through these features, we hope to not only motivate ourselves, but other busy people struggling to self-motivate, to pursue health and wellness goals.
 
 
 ### Questions, Comments, Concerns?
