@@ -6,9 +6,9 @@
  
   <br />
 
-  <h2 align="center">React Native Fitness App</h2>
+  <h2 align="center">Pulse</h2>
 
-  In this project, I have created a Fitness App, The project is built using Expo, React Native, and React Native Navigation.
+  Built using React Native and Node.js
 
 </div>
 
@@ -40,10 +40,6 @@ Like `npm start` / `yarn start`, but also attempts to open your app in the iOS S
 
 Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
 
-### Contact
+### Questions, Comments, Concerns?
 
-If you want to contact me you can reach me at [LinkedIn](https://www.linkedin.com/in/geekyprashant/).
-
-### License
-
-This project is **free to use** and does not contain any license.
+Reach out to us at: rchang05@usc.edu, dygao@usc.edu, nsahni@usc.edu
