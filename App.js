@@ -15,7 +15,7 @@ export default function App() {
       <FitnessProvider>
         <StatusBar style="light" backgroundColor='#000' />
         <Tab.Navigator>
-          <Tab.Screen name="Leaderboard" component={LeaderboardScreen} />
+          <Tab.Screen name="Dashboard" component={LeaderboardScreen} />
           <Tab.Screen name="Challenges" component={ChallengesScreen} />
           <Tab.Screen name="Profile" component={ProfileScreen} />
         </Tab.Navigator>
