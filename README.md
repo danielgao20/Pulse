@@ -9,6 +9,7 @@
   <h2 align="center">Pulse</h2>
 
   Revolutionizing the fitness scene.
+  Built using React Native, Node.js, and Expo.
 
 </div>
 
@@ -34,9 +35,13 @@ Open it in the [Expo app](https://expo.io) on your phone to view it. It will rel
 
 Like `npm start` / `yarn start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
 
-#### `npm run android`
+### Inspiration
+As amateur fitness enthusiasts, we often struggled to hold ourselves accountable to a consistent workout routine amidst our busy schedules. The monotony of solitary workouts further disincentivized us. This inspired us to create Pulse - an application designed to gamify the workout experience and facilitate shared accountability.
 
-Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
+
+### Functionality
+By allowing users to compete for the weekly "Top Athlete" title amongst their friends, as well as offering engaging weekly challenges, Pulse aims to infuse fun, variety, and social connectivity into fitness routines. Through these features, we hope to not only motivate ourselves, but other busy people struggling to self-motivate, to pursue health and wellness goals.
+
 
 ### Questions, Comments, Concerns?
 
