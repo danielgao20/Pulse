@@ -69,6 +69,12 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
   },
+  headerImage: {
+    width: '100%',
+    height: 150,
+    marginBottom: 20,
+    resizeMode: 'contain',
+  },
   heading: {
     fontSize: 24,
     fontWeight: 'bold',

@@ -1,13 +1,21 @@
 import React from 'react';
 import { View, Text, Button, FlatList, StyleSheet } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const ProfileScreen = () => {
+  const navigation = useNavigation();
+
   const friendsData = [
-    { id: '1', name: 'Friend 1' },
-    { id: '2', name: 'Friend 2' },
-    { id: '3', name: 'Friend 3' },
+    { id: '1', name: 'Jane Smith' },
+    { id: '2', name: 'Bob Johnson' },
+    { id: '3', name: 'Chris Paul' },
     // Add more data as needed
   ];
+
+  const handleViewProfile = (friendName) => {
+    // Navigate to the detailed profile screen, passing friendName as a parameter
+    navigation.navigate('FriendProfile', { friendName });
+  };
 
   return (
     <View style={styles.container}>
@@ -29,7 +37,7 @@ const ProfileScreen = () => {
           <View style={styles.friendItem}>
             <Text>{item.name}</Text>
             {/* Add a button to view friend's profile */}
-            <Button title="View Profile" onPress={() => console.log(`View ${item.name}'s Profile`)} />
+            <Button title="View Profile" onPress={() => handleViewProfile(item.name)} />
           </View>
         )}
       />
