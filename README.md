@@ -18,34 +18,19 @@
 ### Inspiration
 As amateur fitness enthusiasts, we often struggled to hold ourselves accountable to a consistent workout routine amidst our busy schedules. The monotony of solitary workouts further disincentivized us. This inspired us to create Pulse - an application designed to gamify the workout experience and facilitate shared accountability.
 
-
 ### Functionality
 By allowing users to compete for the weekly "Top Athlete" title amongst their friends, as well as offering engaging weekly challenges, Pulse aims to infuse fun, variety, and social connectivity into fitness routines. Through these features, we hope to not only motivate ourselves, but other busy people struggling to self-motivate, to pursue health and wellness goals.
 
 ### How we built it 
-
 We followed a fullstack approach to our app, using React Native for the bulk of the frontend and Node.js for the backend. Expo was used as a means to display and run the application.
 
-## Get Started
+## Using Pulse
 
-install dev dependencies
+Note: 'install dev dependencies' in order to properly run the application. 
 
-### `npm install`
+Use the 'npm start' command to run the application in development mode. 
 
-## Then
-
-Run The App
-
-### `npm start`
-
-Runs your app in development mode.
-
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
-
-#### `npm run ios`
-
-Like `npm start` / `yarn start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
-
+To view Pulse on your mobile device, scan the QR code generated after entering 'npm start' or 'yarn start'
 
 ### Questions, Comments, Concerns?
 
