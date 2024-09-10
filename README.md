@@ -12,7 +12,7 @@
 
 </div>
 
-![React Native Fitness App Demo](./assets/Pulse.png "Desktop Demo")
+<img src="./assets/Pulse.png" alt="Pulse Logo" width="350">
 
 
 ### Inspiration
