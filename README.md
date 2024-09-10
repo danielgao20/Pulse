@@ -12,7 +12,9 @@
 
 </div>
 
-<img src="./assets/Pulse.png" alt="Pulse Logo" width="350">
+<div align="center">
+  <img src="./assets/Pulse.png" alt="Pulse Logo" width="350" align="center">
+</div>
 
 
 ### Inspiration
